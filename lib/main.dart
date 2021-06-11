@@ -205,8 +205,7 @@ class BodyPartButton extends StatelessWidget {
       child: SizedBox(
         height: 40,
         child: ColoredBox(
-          color:
-              selected ? const Color.fromRGBO(28, 121, 206, 2) : Colors.black38,
+          color: selected ? const Color.fromRGBO(28, 121, 206, 1) : Colors.black38,
           child: Center(
             child: Text(bodyPart.name.toUpperCase()),
           ),
